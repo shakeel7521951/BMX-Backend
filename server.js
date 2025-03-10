@@ -25,6 +25,10 @@ app.use(
   })
 );
 
+app.get('/',(req,res)=>{
+  res.send("Backend is running.......")
+})
+
 app.use(cookieParser());
 
 app.use("/api/v1", Userroute);

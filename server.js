@@ -20,7 +20,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://bmx-atventure.vercel.app",
+    origin: "https://bmx-frontend.vercel.app",
     credentials: true,
   })
 );
